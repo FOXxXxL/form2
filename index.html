@@ -24,12 +24,12 @@
         <hr/>
         <fieldset>
             <legend>Кто ты?</legend>
-            <label for="">
-                <input type="radio" name="sex" value="men" checked>
+            <label for="men">
+                <input type="radio" name="sex" value="men" checked id="men">
                 мужчина
             </label>
-            <label for="">   
-                <input type="radio" name="sex" value="woomen">
+            <label for="nomen">   
+                <input type="radio" name="sex" value="woomen" id="nomen">
                 не_мужчина
             </label>
         </fieldset>
@@ -42,21 +42,22 @@
         <hr/>
             <fieldset>
                 <legend>Ну как тебе? класно было?</legend>
-                <label for="">
-                    <input type="checkbox" name="fav" value="people">ребята(шныри по кухни)
+                <label for="kithen">
+                    <input type="checkbox" name="fav" value="people" id="kithen">ребята(шныри по кухни)
                 </label> 
-                <label for="">
-                    <input type="checkbox" name="fav" value="spisok">четкое место
+                <label for="place">
+                    <input type="checkbox" name="fav" value="spisok" id="place">четкое место
                 </label>
-                <label for="">
-                    <input type="checkbox" name="fav" value="food">Хавка как у бабки дома
+                <label for="eda">
+                    <input type="checkbox" name="fav" value="food" id="eda">Хавка как у бабки дома
                 </label>   
             </fieldset>
         <hr/>
             <textarea name="coment" id="" cols="30" rows="10" placeholder="Накалякай сюда"></textarea>
         <hr/>
         <label for="">
-            <input type="file" name="file" value="file" multiple>Накинь слайдов
+            Накинь слайдов
+            <input type="file" name="file" value="file" multiple>
         </label>
         <hr/>
         <button type="submit">
